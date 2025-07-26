@@ -1,0 +1,26 @@
+{
+  "name": "colibri",
+  "version": "1.0.0",
+  "description": "Una biblioteca hecha por Leonardo Casiano. Solo para hacer más fácil las bases de un css.",
+  "keywords": [
+    "css",
+    "libreria",
+    "spot",
+    "leonardocasiano"
+  ],
+  "homepage": "https://github.com/SPOT-Peru/colibri#readme",
+  "bugs": {
+    "url": "https://github.com/SPOT-Peru/colibri/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPOT-Peru/colibri.git"
+  },
+  "license": "(MIT)",
+  "author": "Leonardo Casiano",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
