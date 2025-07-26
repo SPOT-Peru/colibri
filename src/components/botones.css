@@ -1,0 +1,153 @@
+/* Librería de botones */
+
+.btn {
+  width:fit-content;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: var(--spacer-2) var(--spacer-4);
+  cursor: pointer;
+  border: var(--border-general);
+  transition:   background-color 0.15s ease-in-out,
+                border-color 0.15s ease-in-out;
+  border-radius: var(--border-radius-primary);
+}
+
+.btn:disabled,
+.btn.disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+/* Botón primario */
+.btn-primary {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+.btn-primary:hover:not(:disabled) {
+  color: var(--color-secondary);
+  background-color: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
+}
+
+.btn-white {
+  color: var(--color-primary);
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+}
+.btn-white:hover:not(:disabled) {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+/* Botón secundario */
+.btn-secondary {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+.btn-secondary:hover:not(:disabled) {
+  background-color: var(--color-secondary-hover);
+  border-color: var(--color-secondary-hover);
+}
+
+/* Botón de éxito */
+.btn-success {
+  color: var(--color-white);
+  background-color: var(--color-success);
+  border-color: var(--color-success);
+}
+.btn-success:hover:not(:disabled) {
+  background-color: var(--color-success-hover);
+  border-color: var(--color-success-hover);
+}
+
+/* Botón de advertencia */
+.btn-warning {
+  color: var(--color-black);
+  background-color: var(--color-warning);
+  border-color: var(--color-warning);
+}
+.btn-warning:hover:not(:disabled) {
+  color: var(--color-black);
+  background-color: var(--color-warning-hover);
+  border-color: var(--color-warning-hover);
+}
+
+/* Botón de error */
+.btn-danger {
+  color: var(--color-white);
+  background-color: var(--color-error);
+  border-color: var(--color-error);
+}
+.btn-danger:hover:not(:disabled) {
+  background-color: var(--color-error-hover);
+  border-color: var(--color-error-hover);
+}
+
+/* Botones con borde (outline) */
+.btn-outline-primary {
+  color: var(--color-primary);
+  background-color: transparent;
+  border-color: var(--color-primary);
+}
+.btn-outline-primary:hover:not(:disabled) {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+
+.btn-outline-secondary {
+  color: var(--color-secondary);
+  background-color: transparent;
+  border-color: var(--color-secondary);
+}
+.btn-outline-secondary:hover:not(:disabled) {
+  color: var(--color-white);
+  background-color: var(--color-secondary);
+}
+
+/* Variantes de tamaño */
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: var(--border-radius-primary);
+}
+.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: var(--border-radius-primary);
+}
+
+/* Botón de ancho completo */
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+/* Estilo para hacer fill */
+
+.fill {
+  /* Define el color al hacer hover (por defecto el hover primario) */
+  --hover-color: var(--color-primary-hover);
+  position: relative;
+  /* Asegura que el fondo sea transparente para mostrar el efecto fill */
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.fill:hover,
+.fill:focus {
+  /* Sombra interna para animar el efecto fill desde dentro */
+  box-shadow: inset 0 0 0 2em var(--hover-color);
+  color: var(--color-white);
+}
+
+.btn-disabled {
+  pointer-events: none;
+  background-color: var(--gray-200);
+  color: var(--gray-500);
+}

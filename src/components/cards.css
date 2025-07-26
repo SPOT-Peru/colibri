@@ -1,0 +1,51 @@
+
+
+
+/* Tarjeta base */
+.card {
+  background-color: var(--color-white);
+  border: var(--border-general);
+  border-radius: var(--border-radius-primary);
+  box-shadow: none;
+  transition: var(--transition-base, all 0.3s ease-in-out);
+}
+
+.card:hover{
+    box-shadow: var(--shadow-lg);
+}
+
+/* Encabezado de tarjeta */
+.card-header {
+  padding: var(--spacer-3);
+  font-weight: 600;
+  font-size: var(--font-size-lg);
+  border-bottom: 1px solid var(--gray-200);
+}
+
+/* Cuerpo de tarjeta */
+.card-body {
+  padding: var(--spacer-3);
+  flex: 1;
+  font-size: var(--font-size-base);
+}
+
+/* Pie de tarjeta */
+.card-footer {
+  padding: var(--spacer-2) var(--spacer-3);
+  background-color: var(--gray-100);
+  border-top: 1px solid var(--gray-200);
+  text-align: right;
+}
+
+/* Imagen en tarjeta */
+.card-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Hover opcional */
+.card:hover {
+  box-shadow: var(--shadow-md);
+}

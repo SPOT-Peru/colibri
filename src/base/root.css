@@ -1,0 +1,87 @@
+/* ROOT inspirado en Bootstrap */
+:root {
+  font-size: 16px;
+
+  /* Tipografía */
+  --font-familia-principal: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --font-familia-heading: 'Montserrat', sans-serif;
+  --font-familia-monospace: 'Courier New', monospace;
+
+  /* Tamaños de fuente */
+  --font-size-base: 1rem;
+  --font-size-sm: 0.875rem;
+  --font-size-lg: 1.25rem;
+
+  /* Encabezados */
+  --font-size-h1: clamp(3rem, 1.7309rem + 1.813vw, 4rem);
+  --font-size-h2: clamp(2.6rem, 1.7309rem + 1.813vw, 3rem);
+  --font-size-h3: clamp(2.2rem, 1.5482rem + 1.3598vw, 2.5rem);
+  --font-size-h4: clamp(1.8rem, 1.3654rem + 0.9065vw, 2rem);
+  --font-size-h5: clamp(1.6rem, 1.2741rem + 0.6799vw, 1.75rem);
+  --font-size-h6: clamp(1.2rem, 1.0914rem + 0.2266vw, 1.25rem);
+
+  /* Encabezados display */
+  --font-size-display-1: 6rem;   /* 96px */
+  --font-size-display-2: 5.5rem; /* 88px */
+  --font-size-display-3: 4.5rem; /* 72px */
+  --font-size-display-4: 3.5rem; /* 56px */
+
+  /* Paleta de colores */
+  --color-primary: #21335f;
+  --color-primary-hover: #142038;
+  --color-secondary: #fdc200;
+  --color-secondary-hover: #bf8d00;
+  --color-error: #780e21;
+  --color-error-hover: #ee526f;
+  --color-warning: #f9d88c;
+  --color-warning-hover: #f0c050;
+
+  --color-white:#fff;
+  --color-black:#000;
+
+  /* Escala de grises */
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #6c757d;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+
+  /* Espaciado */
+  --spacer: 1rem;
+  --spacer-0: 0;
+  --spacer-1: calc(var(--spacer) * 0.25);
+  --spacer-2: calc(var(--spacer) * 0.5);
+  --spacer-3: var(--spacer); 
+  --spacer-4: calc(var(--spacer) * 1.5);
+  --spacer-5: calc(var(--spacer) * 3);
+
+  /* Bordes */
+  --border-radius-primary:0rem;
+  --border-radius-secondary:1.5rem;
+
+  --border-general: 1px solid var(--gray-300);
+
+
+  /* Sombras */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+
+  /* Sistema de grillas */
+  --gutter-x: 1rem;
+  --gutter-y: 1rem; /* vertical gap control */
+}
+
+::selection {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+::-moz-selection {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}

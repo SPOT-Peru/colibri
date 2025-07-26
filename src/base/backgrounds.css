@@ -1,0 +1,46 @@
+/* Fondos sólidos */
+.bg-primary { background-color: var(--color-primary); }
+.bg-primary-hover { background-color: var(--color-primary-hover); }
+.bg-secondary { background-color: var(--color-secondary); }
+.bg-secondary-hover { background-color: var(--color-secondary-hover); }
+.bg-error { background-color: var(--color-error); }
+.bg-error-hover { background-color: var(--color-error-hover); }
+.bg-warning { background-color: var(--color-warning); }
+.bg-warning-hover { background-color: var(--color-warning-hover); }
+.bg-white { background-color: var(--color-white); }
+.bg-black { background-color: var(--color-black); }
+
+.bg-gray-100 { background-color: var(--gray-100); }
+.bg-gray-200 { background-color: var(--gray-200); }
+.bg-gray-300 { background-color: var(--gray-300); }
+.bg-gray-400 { background-color: var(--gray-400); }
+.bg-gray-500 { background-color: var(--gray-500); }
+.bg-gray-600 { background-color: var(--gray-600); }
+.bg-gray-700 { background-color: var(--gray-700); }
+.bg-gray-800 { background-color: var(--gray-800); }
+.bg-gray-900 { background-color: var(--gray-900); }
+
+/* Fondos con gradientes */
+.bg-gradient-primary {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-hover));
+  color: var(--color-white);
+}
+
+.bg-gradient-secondary {
+  background: linear-gradient(135deg, var(--color-secondary), var(--color-secondary-hover));
+}
+
+.bg-gradient-error {
+  background: linear-gradient(135deg, var(--color-error), var(--color-error-hover));
+}
+
+.bg-gradient-warning {
+  background: linear-gradient(135deg, var(--color-warning), var(--color-warning-hover));
+}
+
+.bg-gradient-gray {
+  background: linear-gradient(135deg, var(--gray-300), var(--gray-600));
+}
+.bg-gradient-transBlack {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%)
+}

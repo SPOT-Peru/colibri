@@ -1,0 +1,17 @@
+.svg-white{
+  max-width: 60px;
+  max-height: 60px;
+}
+.svg-white svg path,
+.svg-white svg g,
+.svg-white svg circle,
+.svg-white svg rect {
+  fill: var(--color-white);
+}
+
+.svg-principal svg path,
+.svg-principal svg g,
+.svg-principal svg circle,
+.svg-principal svg rect {
+  fill: var(--color-primary);
+}

@@ -1,0 +1,5 @@
+# Archivos del sistema
+.DS_Store
+
+# Mapas de origen
+*.map.css

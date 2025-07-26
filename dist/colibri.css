@@ -1,0 +1,15 @@
+@import url(../src/base/root.css);
+@import url(../src/base/fuentes.css);
+@import url(../src/base/backgrounds.css);
+@import url(../src/components/hero.css);
+@import url(../src/components/botones.css);
+@import url(../src/components/cards.css);
+@import url(../src/components/iconos.css);
+@import url(../src/components/images.css);
+@import url(../src/layout/container.css);
+@import url(../src/layout/text.css);
+@import url(../src/layout/espacios.css);
+@import url(../src/layout/flexbox.css);
+@import url(../src/layout/heights.css);
+@import url(../src/layout/grid.css);
+@import url(../src/themes/global-home.css);

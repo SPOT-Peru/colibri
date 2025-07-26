@@ -1,0 +1,57 @@
+/* 1. Box-sizing global */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing:  border-box;
+}
+
+html, body {
+  box-sizing: border-box;
+  margin: 0!important;
+  padding: 0;
+  border: 0;
+  scroll-behavior: smooth;
+  width: 100%;
+  /* overflow-x: hidden; */
+}
+
+/* Fluid container: full width with horizontal padding */
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Fixed-width containers */
+.container {
+  width: 100%;
+  padding-right: var(--gutter-x);
+  padding-left: var(--gutter-x);
+  margin: auto;
+}
+
+@media (min-width: 576px) {.container {max-width: 560px;}}
+@media (min-width: 768px) {.container {max-width: 960px;}}
+@media (min-width: 992px) {.container {max-width: 1160px;}}
+@media (min-width: 1200px) {.container {max-width: 1200px;}}
+@media (min-width: 1400px) {.container {max-width: 1360px;}}
+
+/* Optional breakpoint-specific containers */
+.container-sm {
+  width: 100%;
+  padding-right: var(--gutter-x);
+  padding-left: var(--gutter-x);
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container-sm {
+    max-width: 540px;
+  }
+}
+
+.postion-relative{
+  position: relative;
+}
