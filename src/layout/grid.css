@@ -1,5 +1,5 @@
 .grid-2,
-.grid-3 {display: grid;grid-template-columns: repeat(1, 1fr);gap: var(--gutter-y) var(--gutter-x);}
+.grid-3 {display: grid;grid-template-columns: 1fr;gap: var(--gutter-y) var(--gutter-x);}
 .grid-4,
 .grid-5,
 .grid-6 {display: grid;grid-template-columns: repeat(2, 1fr);gap: var(--gutter-y) var(--gutter-x);}
@@ -23,6 +23,3 @@
 @media (min-width: 1200px) {
 .grid-3 {grid-template-columns: repeat(3, 1fr);}
 }
-
-
-.grid-auto {display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--gutter-y) var(--gutter-x);}

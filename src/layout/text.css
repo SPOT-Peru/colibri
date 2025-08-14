@@ -1,3 +1,35 @@
 .text-center{
     text-align: center;
 }
+
+/* ESTO ES POR MIENTRAS */
+
+.border-radius-5{
+    border-radius: var(--border-radius-5);
+}
+/* Shadow */
+
+.hover-shadow-sm{
+    box-shadow: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.hover-shadow-sm:hover{
+    box-shadow: var(--shadow-sm);
+}
+.hover-shadow-md{
+    box-shadow: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.hover-shadow-md:hover{
+    box-shadow: var(--shadow-md);
+}
+.hover-shadow-lg{
+    box-shadow: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.hover-shadow-lg:hover{
+    box-shadow: var(--shadow-lg);
+}

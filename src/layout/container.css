@@ -29,7 +29,8 @@ html, body {
   width: 100%;
   padding-right: var(--gutter-x);
   padding-left: var(--gutter-x);
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 576px) {.container {max-width: 560px;}}
@@ -52,6 +53,13 @@ html, body {
   }
 }
 
-.postion-relative{
+.position-relative{
   position: relative;
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.d-none{
+  display: none;
 }

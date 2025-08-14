@@ -7,12 +7,12 @@
   text-align: center;
   vertical-align: middle;
   user-select: none;
-  padding: var(--spacer-2) var(--spacer-4);
+  padding: var(--spacer-3) var(--spacer-5);
   cursor: pointer;
   border: var(--border-general);
   transition:   background-color 0.15s ease-in-out,
                 border-color 0.15s ease-in-out;
-  border-radius: var(--border-radius-primary);
+  border-radius: var(--border-radius-secondary);
 }
 
 .btn:disabled,
@@ -28,7 +28,7 @@
   border-color: var(--color-primary);
 }
 .btn-primary:hover:not(:disabled) {
-  color: var(--color-secondary);
+  color: var(--color-white);
   background-color: var(--color-primary-hover);
   border-color: var(--color-primary-hover);
 }
@@ -46,11 +46,12 @@
 
 /* Botón secundario */
 .btn-secondary {
-  color: var(--color-primary);
+  color: var(--color-white);
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
 }
 .btn-secondary:hover:not(:disabled) {
+  color: var(--color-white);
   background-color: var(--color-secondary-hover);
   border-color: var(--color-secondary-hover);
 }
