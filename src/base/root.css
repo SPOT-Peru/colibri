@@ -21,11 +21,11 @@
   --font-size-h6: clamp(1.2rem, 1.0914rem + 0.2266vw, 1.25rem);
 
   /* Encabezados display */
-  --font-size-display-1: 6rem;   /* 96px */
-  --font-size-display-2: 5.5rem; /* 88px */
-  --font-size-display-3: 4.5rem; /* 72px */
-  --font-size-display-4: 3.5rem; /* 56px */
-
+  --font-size-display-1: clamp(2rem, 7.2727vw + 0.5455rem, 6rem);
+  --font-size-display-2: clamp(2rem, 6.3636vw + 0.7273rem, 5.5rem);
+  --font-size-display-3: clamp(2rem, 4.5455vw + 1.0909rem, 4.5rem);
+  --font-size-display-4: clamp(2rem, 2.7273vw + 1.4545rem, 3.5rem);
+  
   /* Paleta de colores */
   --color-primary: #11425C;
   --color-primary-hover: #1783A3;
